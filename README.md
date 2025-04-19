@@ -34,9 +34,14 @@
       margin-bottom: 10px;
       display: flex;
       align-items: center;
-      justify-content: center;
+      justify-content: space-around; /* Mudei de center para space-around */
       font-size: 18px;
       color: #c98;
+    }
+
+    .kitty-image-space img {
+      width: 40px; /* Ajustei o tamanho das imagens */
+      height: auto;
     }
 
     .display {
@@ -78,7 +83,9 @@
 <body>
   <div class="calc-container">
     <div class="kitty-image-space">
-      Espaço para imagem da Hello Kitty 🐱🎀
+      <img src="https://example.com/hello-kitty1.png" alt="Hello Kitty 1">
+      <img src="https://example.com/hello-kitty2.png" alt="Hello Kitty 2">
+      <img src="https://example.com/hello-kitty3.png" alt="Hello Kitty 3">
     </div>
     <div class="display" id="display">0</div>
     <div class="buttons">
