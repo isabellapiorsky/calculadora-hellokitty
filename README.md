@@ -91,13 +91,13 @@
   <div class="calc-container">
     <div class="kitty-image-space">
       <div class="kitty-image">
-        <img src="URL_DA_IMAGEM_1" alt="Hello Kitty 1" />
+        <img src="3.jpg.jpg" alt="Hello Kitty 1" />
       </div>
       <div class="kitty-image">
-        <img src="URL_DA_IMAGEM_2" alt="Hello Kitty 2" />
+        <img src="2.jpg.jpg" alt="Hello Kitty 2" />
       </div>
       <div class="kitty-image">
-        <img src="URL_DA_IMAGEM_3" alt="Hello Kitty 3" />
+        <img src="1.jpg.jpg" alt="Hello Kitty 3" />
       </div>
     </div>
     <div class="display" id="display">0</div>
