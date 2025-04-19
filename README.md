@@ -27,21 +27,28 @@
     }
 
     .kitty-image-space {
+      display: flex;
+      justify-content: space-between;
+      gap: 10px;
       width: 100%;
       height: 100px;
-      background-color: #fdd;
-      border-radius: 15px;
       margin-bottom: 10px;
-      display: flex;
-      align-items: center;
-      justify-content: space-around; /* Mudei de center para space-around */
-      font-size: 18px;
-      color: #c98;
     }
 
-    .kitty-image-space img {
-      width: 40px; /* Ajustei o tamanho das imagens */
+    .kitty-image {
+      width: 30%;
+      height: 100%;
+      background-color: #fdd;
+      border-radius: 15px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .kitty-image img {
+      max-width: 100%;
       height: auto;
+      border-radius: 10px;
     }
 
     .display {
@@ -83,9 +90,15 @@
 <body>
   <div class="calc-container">
     <div class="kitty-image-space">
-      <img src="https://example.com/hello-kitty1.png" alt="Hello Kitty 1">
-      <img src="https://example.com/hello-kitty2.png" alt="Hello Kitty 2">
-      <img src="https://example.com/hello-kitty3.png" alt="Hello Kitty 3">
+      <div class="kitty-image">
+        <img src="URL_DA_IMAGEM_1" alt="Hello Kitty 1" />
+      </div>
+      <div class="kitty-image">
+        <img src="URL_DA_IMAGEM_2" alt="Hello Kitty 2" />
+      </div>
+      <div class="kitty-image">
+        <img src="URL_DA_IMAGEM_3" alt="Hello Kitty 3" />
+      </div>
     </div>
     <div class="display" id="display">0</div>
     <div class="buttons">
